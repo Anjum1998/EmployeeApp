@@ -18,6 +18,7 @@ public class EmployApp {
                 int code=sc.nextInt();
                 arr.add(code);
 
+
                 System.out.println("Enter Name");
                 String name= sc.next();
                 arr.add(name);
@@ -42,6 +43,8 @@ public class EmployApp {
                 String email= sc.next();
                 arr.add(email);
 
+                System.out.println("ArrayList values are : ");
+
                 for (int i=0;i<arr.size();i++)
                 {
                     System.out.println(arr.get(i));
@@ -50,13 +53,21 @@ public class EmployApp {
                 break;
             case 2:
 
-
+                System.out.println("Display All Employ Details");
                 for (int i=0;i<arr.size();i++)
                 {
                     System.out.println(arr.get(i));
                 }
                 System.out.println();
                 break;
+            case 3:
+                System.out.println("Enter the Employee Code");
+
+                for (int i=0;i<arr.size();i++)
+                {
+
+                }
+                System.out.println();
 
 
         }
