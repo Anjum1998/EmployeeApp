@@ -63,11 +63,15 @@ public class EmployApp {
             case 3:
                 System.out.println("Enter the Employee Code");
 
-                for (int i=0;i<arr.size();i++)
+                int c= sc.nextInt();
+                if(arr.contains(c))
                 {
-
+                    System.out.println("found");
                 }
-                System.out.println();
+                else {
+                    System.out.println("not found");
+                }
+
 
 
         }
